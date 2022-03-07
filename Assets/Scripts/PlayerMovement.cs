@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        // To make the player teleport instantly through the Mesh Link.
         if(agent.isOnOffMeshLink)
         {
             agent.CompleteOffMeshLink();

@@ -10,7 +10,7 @@ public class ObstacleMovement : MonoBehaviour
 
     private float randomOffset;
 
-    // Start is called before the first frame update
+    // The code is meant to make the obstacle move from side to side in a certain speed and strenght.
     void Start()
     {
         randomOffset = Random.Range(0f, 2f);
